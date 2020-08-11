@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "casinos",
+  "info": {
+    "name": "Casino"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "rating": {
+      "type": "decimal"
+    },
+    "slug": {
+      "type": "string"
+    }
+  }
+}
